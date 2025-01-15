@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 
 # Load the saved model
-model = joblib.load("/Users/macbook/Documents/pythonDS/Financial_inclusion_model.pkl")
+model = joblib.load("Financial_inclusion_model.pkl")
 
 # Define a function to make predictions
 def make_prediction(input_data):
